@@ -21,9 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator.GenericImplementat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain of Responsibility", "Chain of Responsibility", "{B6DD5CFA-FFC8-4A8D-BE0E-58E767737F28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility.GenericImplementation", "ChainOfResponsibility.GenericImplementation\ChainOfResponsibility.GenericImplementation.csproj", "{12050497-8104-4C8B-A166-20206F7ABE18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility.GenericImplementation", "ChainOfResponsibility.GenericImplementation\ChainOfResponsibility.GenericImplementation.csproj", "{12050497-8104-4C8B-A166-20206F7ABE18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility.HandlingExceptions", "ChainOfResponsibility.HandlingExceptions\ChainOfResponsibility.HandlingExceptions.csproj", "{A685F6A3-C6F2-4CA8-83D7-8604F2B36590}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility.HandlingExceptions", "ChainOfResponsibility.HandlingExceptions\ChainOfResponsibility.HandlingExceptions.csproj", "{A685F6A3-C6F2-4CA8-83D7-8604F2B36590}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{6700A7C1-117E-4A0C-A773-C6B705978B91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade.GenericImplementation", "Facade.GenericImplementation\Facade.GenericImplementation.csproj", "{8F5E41CE-9590-4483-BEFE-3292DA7877C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.Restaurant", "Facade.Restaurant\Facade.Restaurant.csproj", "{43005FAA-5467-408B-9D0B-BB578BB63771}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +65,14 @@ Global
 		{A685F6A3-C6F2-4CA8-83D7-8604F2B36590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A685F6A3-C6F2-4CA8-83D7-8604F2B36590}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A685F6A3-C6F2-4CA8-83D7-8604F2B36590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5E41CE-9590-4483-BEFE-3292DA7877C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5E41CE-9590-4483-BEFE-3292DA7877C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5E41CE-9590-4483-BEFE-3292DA7877C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5E41CE-9590-4483-BEFE-3292DA7877C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43005FAA-5467-408B-9D0B-BB578BB63771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43005FAA-5467-408B-9D0B-BB578BB63771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43005FAA-5467-408B-9D0B-BB578BB63771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43005FAA-5467-408B-9D0B-BB578BB63771}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +85,8 @@ Global
 		{447D1642-53A9-4EEC-B8E5-B7B8ED4EC6A8} = {021C27D4-9135-4C3D-9E0E-DEDB23B91CE2}
 		{12050497-8104-4C8B-A166-20206F7ABE18} = {B6DD5CFA-FFC8-4A8D-BE0E-58E767737F28}
 		{A685F6A3-C6F2-4CA8-83D7-8604F2B36590} = {B6DD5CFA-FFC8-4A8D-BE0E-58E767737F28}
+		{8F5E41CE-9590-4483-BEFE-3292DA7877C0} = {6700A7C1-117E-4A0C-A773-C6B705978B91}
+		{43005FAA-5467-408B-9D0B-BB578BB63771} = {6700A7C1-117E-4A0C-A773-C6B705978B91}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF22E8AC-C312-49E9-8925-91BC059EC9F1}
