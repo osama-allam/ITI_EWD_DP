@@ -29,11 +29,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{6700A7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade.GenericImplementation", "Facade.GenericImplementation\Facade.GenericImplementation.csproj", "{8F5E41CE-9590-4483-BEFE-3292DA7877C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.Restaurant", "Facade.Restaurant\Facade.Restaurant.csproj", "{43005FAA-5467-408B-9D0B-BB578BB63771}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade.Restaurant", "Facade.Restaurant\Facade.Restaurant.csproj", "{43005FAA-5467-408B-9D0B-BB578BB63771}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory Method", "Factory Method", "{87B1EDF6-8FEB-4B3B-9D00-3C17C5F073C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod.GenericImplementation", "FactoryMethod.GenericImplementation\FactoryMethod.GenericImplementation.csproj", "{B197C26C-89D4-4925-93B8-DF1C1DE71F1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod.GenericImplementation", "FactoryMethod.GenericImplementation\FactoryMethod.GenericImplementation.csproj", "{B197C26C-89D4-4925-93B8-DF1C1DE71F1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PeopleFactory", "PeopleFactory", "{F43F2039-07E6-43C1-B864-896D12EAA8E9}"
 EndProject
@@ -48,6 +48,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod.Factory", "FactoryMethod.PeopleFactory\FactoryMethod.Factory.csproj", "{5F8C59BB-7BE2-4840-B52A-8B42B06958F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.PeopleViewer", "Factory.PeopleViewer\Factory.PeopleViewer.csproj", "{88ADF183-0FFE-4052-8CED-307BBC20E004}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{8E1CAA95-CB0E-4F41-B347-5BC5526CD584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.HTMLBuilder", "Builder.HTMLBuilder\Builder.HTMLBuilder.csproj", "{44212162-EA16-40F4-B8F5-C3C32A03F636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.FluentBuilder", "Builder.FluentBuilder\Builder.FluentBuilder.csproj", "{AABB87DB-007F-4B3D-AEEC-E41E6F16F620}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{0CB9DA22-E025-4980-957E-43859996B6EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Points", "Adapter.Points\Adapter.Points.csproj", "{DE4145CB-58B3-4D6C-B7EF-0FE9928E78E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Shape", "Adapter.Shape\Adapter.Shape.csproj", "{2E275B94-27DF-473D-A916-7F6D54CC06C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +131,22 @@ Global
 		{88ADF183-0FFE-4052-8CED-307BBC20E004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88ADF183-0FFE-4052-8CED-307BBC20E004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88ADF183-0FFE-4052-8CED-307BBC20E004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44212162-EA16-40F4-B8F5-C3C32A03F636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44212162-EA16-40F4-B8F5-C3C32A03F636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44212162-EA16-40F4-B8F5-C3C32A03F636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44212162-EA16-40F4-B8F5-C3C32A03F636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABB87DB-007F-4B3D-AEEC-E41E6F16F620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABB87DB-007F-4B3D-AEEC-E41E6F16F620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABB87DB-007F-4B3D-AEEC-E41E6F16F620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABB87DB-007F-4B3D-AEEC-E41E6F16F620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4145CB-58B3-4D6C-B7EF-0FE9928E78E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4145CB-58B3-4D6C-B7EF-0FE9928E78E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4145CB-58B3-4D6C-B7EF-0FE9928E78E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4145CB-58B3-4D6C-B7EF-0FE9928E78E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E275B94-27DF-473D-A916-7F6D54CC06C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E275B94-27DF-473D-A916-7F6D54CC06C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E275B94-27DF-473D-A916-7F6D54CC06C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E275B94-27DF-473D-A916-7F6D54CC06C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,6 +169,10 @@ Global
 		{003702D8-E922-4539-80D4-15AAB22FF29D} = {F43F2039-07E6-43C1-B864-896D12EAA8E9}
 		{5F8C59BB-7BE2-4840-B52A-8B42B06958F3} = {F43F2039-07E6-43C1-B864-896D12EAA8E9}
 		{88ADF183-0FFE-4052-8CED-307BBC20E004} = {F43F2039-07E6-43C1-B864-896D12EAA8E9}
+		{44212162-EA16-40F4-B8F5-C3C32A03F636} = {8E1CAA95-CB0E-4F41-B347-5BC5526CD584}
+		{AABB87DB-007F-4B3D-AEEC-E41E6F16F620} = {8E1CAA95-CB0E-4F41-B347-5BC5526CD584}
+		{DE4145CB-58B3-4D6C-B7EF-0FE9928E78E4} = {0CB9DA22-E025-4980-957E-43859996B6EA}
+		{2E275B94-27DF-473D-A916-7F6D54CC06C6} = {0CB9DA22-E025-4980-957E-43859996B6EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF22E8AC-C312-49E9-8925-91BC059EC9F1}
